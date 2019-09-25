@@ -6,23 +6,16 @@ using System.Threading.Tasks;
 
 namespace EmployeesHierarchy
 {
-    /// <summary>
-    /// The graph edge class.
-    /// </summary>
+    // The graph edge class.
     public class UnweightedEdge<TVertex> : IEdge<TVertex> where TVertex : IComparable<TVertex>
     {
         private const int _edgeWeight = 0;
-
-        /// <summary>
-        /// Gets or sets the source vertex.
-        /// </summary>
-        /// <value>The source.</value>
+        
+        // Gets or sets the source vertex.
         public TVertex Source { get; set; }
-
-        /// <summary>
-        /// Gets or sets the destination vertex.
-        /// </summary>
-        /// <value>The destination.</value>
+        
+        // Gets or sets the destination vertex.
+        // <value>The destination.</value>
         public TVertex Destination { get; set; }
 
         /// <summary>

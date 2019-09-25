@@ -6,14 +6,10 @@ using System.Threading.Tasks;
 
 namespace EmployeesHierarchy
 {
-    /// <summary>
-    /// The Array-Based List Data Structure.
-    /// </summary>
+    // The Array-Based List Data Structure.
     public class ArrayList<T> : IEnumerable<T>
     {
-        /// <summary>
-        /// Instance variables.
-        /// </summary>
+        // Instance variables.
 
         // This sets the default maximum array length to refer to MAXIMUM_ARRAY_LENGTH_x64
         // Set the flag IsMaximumCapacityReached to false
